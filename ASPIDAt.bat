@@ -69,10 +69,25 @@ goto loop
 
 :insi 
 cls
-echo Instructions to be added...
-pause 
+echo Go to your phone or laptop browser that is on the same network
+echo.
+echo and type in the credentials given to your when you run the server
+echo.
+echo Transfered files should be saved to received_files
+echo.
+echo ------------------------------------------------------------------------------------------------------------------------
+echo.
+echo Type 9 to go back
+echo.
+echo ------------------------------------------------------------------------------------------------------------------------
+echo.
 
-goto loop 
+set /p mana=
+
+if /I "!mana!"=="9" goto loop 
+
+
+goto insi 
 
 :endi 
 
