@@ -1,5 +1,5 @@
 # ASPIDAfiletransfer
-Send files from some device to your computer via internet(python+html)
+Send files from some device to your computer via internet Python+HTML
 
 First make sure you have Python installed, it will NOT work without it.
 
